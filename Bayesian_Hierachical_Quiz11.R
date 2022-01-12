@@ -57,7 +57,7 @@ dic = dic.samples(mod, n.iter=1e3)
 
 
 
-#### Quiz 9 ####
+#### Quiz 11 ####
 library("MASS")
 data("OME")
 ?OME # background on the data
