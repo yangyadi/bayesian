@@ -95,7 +95,7 @@ resid = badhealth$numvisit - lam_hat
 plot(resid) # the data were ordered
 
 
-#### Quiz 10: 5
+#### Quiz 10: 5 ####
 
 dat = read.csv(file="callers.csv", header=TRUE)
 head(dat)
@@ -144,6 +144,7 @@ head(X)
 
 llam_hat = pmed_coef["b0"] + X %*% pmed_coef[c("b[1]", "b[2]")]
 lam_hat = exp(llam_hat*dat$days_active)
+
 
 hist(lam_hat)
 
